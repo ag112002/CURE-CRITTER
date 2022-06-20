@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/236643847b.js" crossorigin="anonymous"></script>
+  <style>
+  body
+    {
+          background-image:url("imagebg.jpg");
+    }
+
+</style>
+<script type="text/javascript">
+  function handleSelect(elm)
+  {
+     window.location = elm.value+".php";
+  }
+</script>
+  </head>
+  <body>
+
+  <center>  <h2  style="background-color:DodgerBlue;   font-family: Arial;font-size:50px">FIND THE ANIMAL CENTRE LOCATION HERE.........</h2><center>
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+  <center>  <label style="font-size:50px; background-color:	#FFDEAD; font-family:Cursive">Search in your State</label><center>
+  </div>
+  <center>
+  <select style="font-size:40px" name="formal" onchange="javascript:handleSelect(this)">
+    <option selected>Choose...</option>
+      <option value="http://localhost/my php/Hp">HIMACHAL PRADESH</option>
+      <option value="http://localhost/my php/Kerela">KERALA</option>
+      <option value="http://localhost/my php/kanartka">KARNATAKA</option>
+      <option value="http://localhost/my php/MH">MAHARASTRA</option>
+      <option value="http://localhost/my php/MP">MADHYA PRADESH</option>
+      <option value="http://localhost/my php/UP" >UTTAR PRADESH</option>
+
+  </select>
+  <center>
+</div>
+
+</body>
