@@ -5,6 +5,6 @@ As Animals are disappearing and humans are to blame so let the humans be the alt
 
 RUN OUR PROJECT TO BE A PART OF MERITORIOUS LINE...............................................................................................................................
 .Install "XAMPP APP" on your local Computer. It is a platform that furnishes a suitable environment to test and verify the working of projects based on Apache, Perl, MySQL database, and PHP through the system of the host itself.
-
+.Open XAMPP folder in your file manager ,you will find another folder named "htdocs" ,in this folder add all php files which are in my project. 
 .In the XAMPP Control panel Start the module "APACHE" and "MYSQL" and then you will be able to see the live location centre near you in our project.
 .As usual run the index.html file by copying full project path and have a look at the most helpful project for the species who can't speak.
