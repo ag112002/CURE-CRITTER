@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+  position:fixed;
+  background-color:#00308F;
+  width:100%;
+  padding:20px 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+nav.sticky{
+  background:#ff8882;
+  padding: 18px 0;
+}
+nav .navbar{
+  width:90%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+}
+nav .navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color:white;
+}
+
+nav.sticky .navbar .logo a{
+  color:white;
+}
+
+nav .navbar .menu{
+  display:flex;
+  position:relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin:0 8px;
+}
+nav .navbar .menu a{
+  font-size: 18px;
+  font-weight: 500;
+  color:white;
+  padding:6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color:white;
+}
+nav.sticky .menu a{
+  color:white;
+}
+nav.sticky .menu a:hover{
+  color:white;
+}
+.navbar .media-icons a{
+  color:white;
+
+  margin:0 6px;
+}
+nav.sticky .media-icons a{
+  color:white;
+}
+
+/* side navigation Menu Button */
+nav .menu-btn,
+.navbar .menu .cancel-btn{
+  position:absolute;
+  color:white;
+  right:30px;
+  top:20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+nav .menu-btn{
+  color:white;
+}
+nav.sticky .menu-btn{
+  color:white;
+}
+.navbar .menu .menu-btn{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px){
+   nav .navbar{
+     width:90%;
+   }
+   nav .navbar .menu{
+     position:fixed;
+     left:-100%;
+     top:0;
+     background:#ff8882;
+     height:100vh;
+     max-width: 400px;
+     width:100%;
+     padding-top:60px;
+     flex-direction: column;
+     align-items:center;
+     transition: all 0.5s ease;
+   }
+   .navbar.active .menu{
+     left:0;
+   }
+   nav .navbar .menu a{
+     font-size:23px;
+     display:block;
+     color:#fff;
+     margin:10px 0;
+   }
+   nav.sticky .menu a:hover{
+     color:#ff8882;
+   }
+   nav .navbar .media-icons{
+     display:none;
+   }
+   nav .menu-btn,
+   .navbar .menu .cancel-btn{
+     display:block;
+   }
+   p {
+     text-decoration-line: overline underline;
+     text-decoration-color: purple;
+     color: orange;
+    text-shadow: 2px 2px 4px #000000;
+   }
